@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+            <link rel="stylesheet" href="/static/global.css">
+            <link rel="stylesheet" href="/static/piedepagina.css">
+            <link rel="shortcut icon" href="/static/favicon-96x96.png">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+            <title>
+                Revista
+            </title>
+        </head>
+        <body>
+            <script src="/static/script.js"></script>
+            <div>
+                <header class="header_revista">
+                    <div>
+                        <a href="/Principal/principal.html">
+                            <img src="/static/cbtl.png">
+                        </a>
+                        <div class="hover-container">
+                            <h1 class="explosive-text">
+                                REVISTA
+                            </h1>
+                        </div>
+                    </div>
+                </header>
+                <div class="menu">
+                <nav>
+                        <ul>
+                            <button>
+                                <a href="/Principal/principal.html">
+                                    Principal <i class="fa-solid fa-school"></i>
+                                </a>
+                            </button>
+                            <button>
+                                <a href="/Conocenos/Conocenos.html">
+                                    Conocenos <i class="bi bi-body-text"></i>
+                                </a>
+                                </a>
+                            </button>
+                            <button>
+                                <a href="/Carreras/Carreras.html">
+                                    Carreras <i class="fa-solid fa-briefcase"></i>
+                                </a>
+                            </button>
+                            <button>
+                                <a href="/Banda/Soles.html">
+                                    Marching Band <i class="fa-solid fa-drum"></i>
+                                </a>
+                            </button>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="revista">
+                <div class="Botones_de_control">
+                    <button class="btn-9" onclick="paginaAnterior()">&lt;</button>
+                    <button class="btn-9" onclick="paginaSiguiente()">&gt;</button>
+                </div>
+                <div class="libro">
+                    <div class="pagina actual portada" id="Portada">
+                    </div>
+                        <div class="pagina" id="indice">
+                            <div class="indice">
+                                <h2>
+                                    INDICE
+                                </h2>
+                                <ul>
+                                    <li>
+                                        <a href="#" onclick="mostrarPaginaPorNumero(2)">Tierra Viva</a> 
+                                    </li>
+                                    <li>
+                                        <a href="#" onclick="mostrarPaginaPorNumero(3)">Acoso</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="pagina" id="pagina2">
+                        <div class="Articulo">
+                            <h2>
+                                Tierra Viva
+                            </h2>
+                            <img src="/static/upscalemedia-transformed (4).jpeg" alt="Evidencia">
+                            <p>
+                                En la agricultura contemporánea, el uso extendido de fertilizantes químicos por productores privados y civiles genera preocupaciones debido a sus efectos negativos en la salud humana y en los ecosistemas. 
+                                No obstante, existen alternativas sustentables que ofrecen rendimientos similares con menor impacto ambiental. 
+                                <br>
+                                Una de ellas es el lombricompostaje, un método eficiente que combina tierra fértil, residuos orgánicos urbanos y la actividad de la lombriz roja californiana Eisenia foetida para fertilizar los suelos de manera sostenible.
+                            </p>
+                            <a href="https://drive.google.com/file/d/13_QJt0nrp9z0Ak77pajZErQEnja-Wrpy/view?usp=sharing">Presiona aqui para leer más</a>
+                            <div class="creditos">
+                                <p>
+                                    &copy;
+                                    Maestra Maria Eugenia Reyna Sáenz y Maestro Francisco Mejía Moreno
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagina" id="pagina3">
+                        <div class="Articulo">
+                            <h3 style="text-align: center;">
+                                ¿CUANTAS VECES TE HAS SENTIDO ACOSADA O ACOSADO?
+                            </h3>
+                            <img src="/static/upscalemedia-transformed (3).jpeg" alt="Evidencia">
+                            <p>
+                                Las estudiantes del 6° semestre de Técnico en Informática, grupo 3°4 matutino, realizaron una encuesta en la materia de Probabilidad y Estadística con la pregunta “¿Cuántas veces te has sentido acosada o acosado?”, buscando visibilizar una problemática que suele mantenerse en silencio. 
+                                <br>
+                                Para analizar los datos, calcularon la media, mediana y moda, así como la desviación media, con el fin de comprender la frecuencia del acoso y cómo se distribuyen estas experiencias entre los participantes.
+                            </p>
+                            <a href="https://drive.google.com/file/d/16tCSgKggApoENKELnMyU82HUGObmXmUx/view?usp=sharing">Presiona aqui para leer más</a>
+                            <div class="creditos">
+                                <p>
+                                    &copy;
+                                    Maestra Paola Blancas Escalona
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <iframe src="/footer/footer.html" frameborder="15" allowfullscreen></iframe>
+            </footer>
+        </body>
+    </html>
