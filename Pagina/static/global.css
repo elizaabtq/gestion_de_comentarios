@@ -85,7 +85,7 @@ body {
 }
 
 .header_revista{
-    background: url(/static/Revista_header.jpg);
+    background: url(/Pagina/static/Revista_header.jpg);
     display: flex; 
     flex-direction: column; 
     align-items: center; 
@@ -111,7 +111,7 @@ body {
 }
 
 .header_soles{
-    background: url(/static/Soles_header.jpeg);
+    background: url(/Pagina/static/Soles_header.jpeg);
     display: flex; 
     flex-direction: column; 
     align-items: center; 
@@ -129,7 +129,7 @@ body {
 }
 
 .header_conocenos{
-    background: url(/static/Conocenos_header.jpg);
+    background: url(/Pagina/static/Conocenos_header.jpg);
     display: flex; 
     flex-direction: column; 
     align-items: center; 
@@ -155,7 +155,7 @@ body {
 }
 
 .header_carreras{
-    background: url(/static/carreras_header.jpg);
+    background: url(/Pagina/static/carreras_header.jpg);
     display: flex; 
     flex-direction: column; 
     align-items: center; 
@@ -181,7 +181,7 @@ body {
 }
 
 .header{
-    background: url(/static/principal_header.jpg); 
+    background: url(/Pagina/static/principal_header.jpg); 
     display: flex; 
     flex-wrap: wrap;
     align-items: center; 
@@ -208,7 +208,7 @@ body {
 }
 
 .header_conocenos{
-    background: url(/static/Conocenos_header.jpg); 
+    background: url(/Pagina/static/Conocenos_header.jpg); 
     display: flex; 
     flex-direction: column; 
     align-items: center; 
@@ -716,10 +716,10 @@ a{
 }
 
 .portada{
-    background: url(/static/Revista\ portada\ 1.png);
+    background: url(/Pagina/static/Revista\ portada\ 1.png);
     background-size: 94%;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 610px;
     width: 500px;
 }
 
@@ -1028,7 +1028,7 @@ a{
 	right: 0;
 	width: 60vmin;
 	height: 100%;
-	background-image: url("/static/soles.jpg");
+	background-image: url("/Pagina/static/soles.jpg");
 	background-size: cover;
 	transition: 0.3s ease-in-out;
 	/* border: 1px solid green; */
@@ -1289,10 +1289,10 @@ a{
     display: none;
 }
 
-.informatica { background: #1e90ff;}
-.diseño { background: #e63946; }
-.administracion { background: #2a9d8f; }
-.contaduria { background: #f4a261; }
+.informatica { background: #1d30a0;}
+.diseño { background: #b42b36; }
+.administracion { background: #1d7433; }
+.contaduria { background: #cea521; }
 
 .hidden {
     opacity: 0;
