@@ -1252,6 +1252,7 @@ a{
 .card4 .title {
     font-size: 1.2em;
     font-weight: bold;
+    text-align: center;
 }
 .card4 .short-desc {
     font-size: 0.9em;
