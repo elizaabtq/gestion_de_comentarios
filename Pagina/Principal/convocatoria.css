@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+.modal{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+}
+
+.convocatorias-trigger{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    border: 5px solid #333b91;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #000;
+    font-family: "Lora", serif;
+}
+
+.convocatorias-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(161, 125, 245, 0.795);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    font-family: "Lora", serif;
+}
+
+.convocatorias{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 40%;
+    transition: all .3s .3s;
+    font-family: "Lora", serif;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.8);
+}
+
+.close{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    color: #8a6fec;
+    text-decoration: none;
+}
+
+.convocatoria-header{
+    background-color: #232a70;
+    padding: 8px;
+}
+
+.convocatorias-body{
+    padding: 64px;
+    background-color: #fff;
+}
+
+.convocatorias-container:target{
+    opacity: 1;
+    visibility: visible;
+}
+
+.convocatorias-container:target .convocatorias{
+    transform: translate(-50%,-50%);
+}
